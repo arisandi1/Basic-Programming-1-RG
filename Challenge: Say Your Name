@@ -1,0 +1,11 @@
+background(255, 0, 255);
+var myName = function() {
+    var textX = random(0, 200);
+    var textY = random(0, 400);
+    var yourName = "Arisandi";
+    fill(0, 214, 203);
+    textSize(30);
+    text("HIIIII, " + yourName, textX, textY);
+};
+myName();myName();myName();myName();myName();myName();myName();myName();myName();myName();myName();myName();myName();myName();myName();myName();myName();myName();myName();myName();myName();myName();myName();myName();myName();myName();myName();myName();myName();myName();myName();myName();myName();myName();myName();
+myName();myName();
