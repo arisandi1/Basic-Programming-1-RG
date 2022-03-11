@@ -1,0 +1,29 @@
+fill(240, 12, 240);
+
+draw = function() {
+    background(0, 0, 0);
+    ellipse(mouseX, mouseY, 12, 12);
+    fill(203, 18, 232);
+    stroke(239, 240, 237);
+    fill(39, 209, 59);
+    rect(mouseX, mouseY, 69, 69); 
+    var label = mouseX + " , " + mouseY;
+    text(label,mouseX,mouseY);
+fill(224, 178, 40);
+rect(307,22,30,30);    
+ fill(161, 156, 156);
+ ellipse(224,70,92,63); 
+ 
+ ellipse(263,48,53,46);
+fill(23, 10, 10);
+ellipse(274,42,10,10);
+fill(161, 150, 150);
+ellipse(196,105,36,28);
+ellipse(251,105,36,28); 
+ellipse(278,59,17,2);
+ellipse(151,58,75,9);
+
+
+ 
+ 
+};
