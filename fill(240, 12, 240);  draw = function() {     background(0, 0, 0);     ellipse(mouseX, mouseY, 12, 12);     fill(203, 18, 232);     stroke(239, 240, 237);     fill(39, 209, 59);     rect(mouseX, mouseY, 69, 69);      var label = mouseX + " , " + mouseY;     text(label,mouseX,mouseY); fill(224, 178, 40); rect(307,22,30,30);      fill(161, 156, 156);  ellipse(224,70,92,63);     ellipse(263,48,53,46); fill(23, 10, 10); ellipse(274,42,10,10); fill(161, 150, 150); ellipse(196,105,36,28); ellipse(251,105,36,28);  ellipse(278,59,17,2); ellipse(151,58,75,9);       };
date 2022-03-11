@@ -1,0 +1,31 @@
+var a = 100;
+var b = 125;
+var c = 100;
+var d = 50;
+
+//HINT: move the mouse around
+
+draw = function() {
+    
+background(0, 0, 50);
+text("BUY NOW", mouseX, mouseY);
+text("It can correct anything you wish!", 47, 87);
+var buyNow = "BUY NOW";
+var message = buyNow + "!!!";
+text(message, mouseX, mouseY);
+fill(mouseX, mouseY, 72);
+textSize(20);
+text("AUTOPEN!", 158, 30);
+textSize(21);
+//pen
+fill(mouseX, mouseY, 650);
+ellipse(a+97, b+100, c-88, d-220);
+//pen side
+ellipse(a+125, b+155, c-95, d-105);
+ellipse(a+113, b+131, c-77, d-58);
+//pen cap
+ellipse(a+98, b+182, c-83, d-64); 
+
+
+
+};
