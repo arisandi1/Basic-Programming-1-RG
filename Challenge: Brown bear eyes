@@ -1,0 +1,27 @@
+noStroke();
+var x = 150;
+var y = 250;
+var faceSize = 350;
+background(190, 141, 230);
+// ears
+var earSize=faceSize*1/2;
+fill(89, 52, 17);
+ellipse(x-faceSize*2/5, y-faceSize*2/5, earSize, earSize);            
+ellipse(x+faceSize*2/5, y-faceSize*2/5, earSize, earSize);
+
+// face
+fill(163, 113, 5);
+ellipse(x, y, faceSize, faceSize);
+
+
+
+//eyes 
+var e = faceSize / 8;
+fill(0, 0, 0);
+ellipse(x-faceSize/4, y- faceSize/8, e, e);
+ellipse(x + faceSize /4, y - faceSize/ 8, e, e);
+
+
+//nose
+fill(89, 52, 20);
+ellipse(x, y+faceSize/8, faceSize*4/15, faceSize/5);
