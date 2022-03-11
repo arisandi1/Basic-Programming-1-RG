@@ -1,0 +1,28 @@
+
+background(0, 13, 255);
+var es = 50;
+var t = 35;
+fill(15, 13, 13);
+ellipse(150, 70, 60, 120);  // left ear
+ellipse(240, 70, 60, 120);  // right ear
+fill(8, 7, 7);
+ellipse(86, 221, 66, 66); // tail
+
+ellipse(198, 285, 214, 194); // body
+ellipse(200, 170, 161, 150);    // face
+
+
+
+
+fill(13, 0, 255);
+ellipse(170, 150, es, es);  // left eye
+ellipse(230, 150, es, es);  // right eye
+fill(255, 255, 255);
+ellipse(239, 140, 20, 20);
+ellipse(178, 140, 20, 20);
+
+line(146, 200, 250, 200);   // mouth
+
+fill(255, 255, 255);
+rect(185, 200, 15, t); // left tooth
+rect(200, 200, 15, t); // right tooth
