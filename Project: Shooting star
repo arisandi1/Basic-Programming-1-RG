@@ -1,0 +1,64 @@
+var xPos = 16;
+var yPos = 14;
+var x = 387;
+var y = 65;
+draw = function() {
+    background(29, 40, 115);
+    fill(255, 242, 0);
+    ellipse(xPos+=1, yPos, 10, 10);
+    ellipse(x-=1, y, 10, 10);
+    stroke(76, 81, 84);
+    fill(77, 80, 87);
+    rect(51, 75, 66, 180);
+    rect(126, 155, 78, 100);
+    rect(215, 111, 76, 144);
+    stroke(50, 82, 92);
+    fill(37, 104, 148);
+    rect(-6, 255, 430, 151);
+};
+
+var xPos =0;
+var yPos = 0;
+var Xpos =400;
+var Ypos = 0;
+var rpos = 0 ; 
+var spos = 400;
+var lpos = 400;
+var dpos = 400;
+var mpos = 800;
+var cpos = 1225;
+var zpos = 1275;
+var vpos = 1275;
+draw = function() {
+ yPos+=1;
+ xPos+=1;
+  Xpos -=1 ;
+  Ypos+= 1;
+  rpos+= 1;
+  spos-=1;
+  lpos-= + 1;
+  dpos-= +1;
+  cpos-= 3;
+zpos -= 3;
+vpos -=3;
+    background(0, 0, 0);
+    fill(255, 238, 0);
+    ellipse(247, 185, 5,5); //Dipper4
+    ellipse(219, 125, 5, 5);//Dipper3
+    ellipse(127, 46, 5,5);//Dipper2
+    ellipse(237, 287, 5,5);//Dipper5
+    ellipse(373, 339, 5, 5);//Dipper6 
+    ellipse(390, 221, 5, 5);//Dipper7
+    ellipse(27, 23, 5, 5);//Dipper1
+  fill(252, 247, 151);
+    ellipse(xPos, yPos, 10, 10);
+ellipse(Xpos,Ypos,10,10);
+ellipse(rpos, spos, 10,10);
+ellipse(lpos,dpos,10,10);
+
+fill(119, 168, 252);
+ellipse(200, cpos, 15,15);
+ellipse(150, zpos, 15,15);
+ellipse(250, vpos, 15,15);
+
+};
