@@ -1,0 +1,99 @@
+var centerX = 157;
+var centerY = 100;
+var bodyLength = 118;
+var bodyHeight = 74;
+var bodyColor = color(30, 0, 255);
+var Plantx = 0;
+var PlantY= 291; 
+var JellyX = 704;
+var JellyY = 23;
+var SchoolX = 600; 
+var SchoolY = 76; 
+noStroke();
+var draw = function() {
+ Plantx -=1;
+SchoolX +=6;
+
+background(26, 181, 201);
+fill(105, 96, 96);
+ ellipse(Plantx + 182,PlantY +82,200000000,115);
+
+fill(bodyColor);
+
+// Elliot Jr. 
+// body
+ellipse(centerX, centerY, bodyLength, bodyHeight);
+// tail
+var tailWidth = bodyLength/4;
+var tailHeight = bodyHeight/2;
+triangle(centerX-bodyLength/2, centerY,
+         centerX-bodyLength/2-tailWidth, centerY-tailHeight,
+         centerX-bodyLength/2-tailWidth, centerY+tailHeight);
+// eye
+fill(33, 33, 33);
+ellipse(centerX+bodyLength/4, centerY, bodyHeight/5, bodyHeight/5);
+
+  //plants 
+fill(98, 150, 112);
+rect(Plantx,PlantY,14,109);
+rect(Plantx +70,PlantY -37 ,15,146);
+rect(Plantx +-90,PlantY+108,14,-156); 
+rect(Plantx+324, PlantY +-38,14,152);
+rect(Plantx+159, PlantY +-6,14,117);
+rect(Plantx+256, PlantY +-8,14,118);
+rect(Plantx+373, PlantY +13,14,101);
+rect(Plantx+440, PlantY +13,14,101);
+rect(Plantx+497, PlantY +13,14,101);
+rect(Plantx+ 400,PlantY,14,109);
+rect(Plantx +578,PlantY -37 ,15,146);
+rect(Plantx + 600,PlantY+108,14,-156); 
+rect(Plantx+ 718, PlantY +-38,14,152);
+rect(Plantx+871, PlantY +-6,14,117);
+rect(Plantx+736, PlantY +-8,14,118);
+rect(Plantx+803, PlantY +13,14,101);
+rect(Plantx+ 902, PlantY +13,14,101);
+rect(Plantx+890, PlantY +13,14,101);
+rect(Plantx+ 973,PlantY,14,109);
+rect(Plantx +1000,PlantY -37 ,15,146);
+rect(Plantx +1100,PlantY+108,14,-156); 
+rect(Plantx+ 1267, PlantY +-38,14,152);
+rect(Plantx+ 1330, PlantY +-6,14,117);
+rect(Plantx+1436, PlantY +-8,14,118);
+rect(Plantx+1503, PlantY +13,14,101);
+rect(Plantx+ 1602, PlantY +13,14,101);
+rect(Plantx+1790, PlantY +13,14,101);
+//2nd bush
+
+rect(Plantx+ 1873,PlantY,14,109);
+rect(Plantx +1998,PlantY -37 ,15,146);
+rect(Plantx +2178,PlantY+108,14,-156); 
+rect(Plantx+ 2267, PlantY +-38,14,152);
+rect(Plantx+ 2330, PlantY +-6,14,117);
+rect(Plantx+2436, PlantY +-8,14,118);
+rect(Plantx+2503, PlantY +13,14,101);
+rect(Plantx+ 2602, PlantY +13,14,101);
+rect(Plantx+2790, PlantY +13,14,101);
+
+//jellyfish
+
+ JellyX -=3;
+fill(255, 173, 255);
+ellipse(JellyX,JellyY,86,53);
+rect(JellyX +24,JellyY -18,98,6);
+rect(JellyX +24,JellyY -9,103,6);
+rect(JellyX +33,JellyY,90,6);
+rect(JellyX,JellyY+ 10,118,6);
+//Schooloffish
+fill(255, 132, 38);
+ellipse(SchoolX-3039, SchoolY+108,25,9);//fish 1
+ellipse(SchoolX-3036, SchoolY+139,25,9);//fish 2
+ellipse(SchoolX-3032, SchoolY+124,25,9);//fish 3
+ellipse(SchoolX-3096, SchoolY+121,25,9);//fish 4
+ellipse(SchoolX-3061, SchoolY+140,25,9);//fish 5
+ellipse(SchoolX-3006, SchoolY+146,25,9);//fish 6
+ellipse(SchoolX-3018, SchoolY+103,25,9);//fish 7
+ellipse(SchoolX-3088, SchoolY+137,25,9);//fish 8
+ellipse(SchoolX-3063, SchoolY+112,25,9);//fish 9
+ellipse(SchoolX-3040, SchoolY+121,25,9);//fish 10
+
+};  
