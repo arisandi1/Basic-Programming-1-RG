@@ -1,0 +1,30 @@
+var x = 200;
+var y = 250;
+
+ellipse(200, 309, 25, 25);
+
+fill(0, 0, 0);
+rect(166, 82, 67, 99);
+rect(157, 180, 89, 22);
+fill(255, 255, 255);
+rect(166, 160, 67, 19);
+noStroke();
+fill(30, 204, 91); // a nice froggy green!
+
+ellipse(x, y, 200, 100); // face
+ellipse(x - 50, y - 50, 40, 40); // left eye socket
+ellipse(x + 50, y - 50, 40, 40); // right eye socket
+
+fill(255, 255, 255); // for the whites of the eyes!
+ellipse(x - 50, y - 50, 30, 30); // left eyeball
+ellipse(x + 50, y - 50, 30, 30); // right eyeball
+stroke(252, 252, 252);
+strokeWeight(5);
+fill(0, 0, 0);
+ellipse(x, y, 125, 60);
+
+rect(x - 55, y - 48, 10, 10);
+
+rect(x + 46, y - 48, 10, 10);
+
+ellipse(200, 309, 25, 25);
