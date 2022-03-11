@@ -1,0 +1,9 @@
+
+
+draw = function() {
+
+    fill(245, 103, 245);
+    stroke(255, 0, 0);
+    rect(mouseX, mouseY, 50, 50);
+};
+  
