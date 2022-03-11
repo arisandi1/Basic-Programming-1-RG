@@ -1,0 +1,26 @@
+
+textSize(30);
+fill(46, 27, 27);
+text("Hi My favorite food is pizza ",28,50);
+textSize(24);
+fill(0, 13, 255);
+text("Hi I am Justin and I wike kFc",10,247);
+text("1popeyes",20,68);
+text("2subway",30,82);
+
+background(35, 224, 18);
+fill(255, 0, 0);
+textSize(25);
+text("My Favorite Foods: ", 50, 50);
+fill(27, 0, 230);
+text("1. brocooli ", 50, 86);
+text("2. cheese! ", 50, 122);
+text("3. whats your??", 50, 155);
+
+fill(255, 0, 0);
+textSize(32);
+text("My Favorite Foods", 73,40);
+text("1. Rattlesnake", 4,95);
+text("2. Jellyfish", 7,149);
+text("3. Wild Hog", 6,204);
+
